@@ -2,7 +2,7 @@ from openai import OpenAI
 
 client = OpenAI()
 
-print("🤖 Simple Console Chatbot (type 'exit' to quit)\n")
+print(" Simple Console Chatbot (type 'exit' to quit)\n")
 
 while True:
     user_input = input("You: ")
